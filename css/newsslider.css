@@ -1,0 +1,99 @@
+.swiper {
+    top: 120px;
+    width: 990px;
+    height: 1100px;
+    margin: 0 auto;
+}
+.swiper-slide {
+    height: c;
+    margin-bottom: 250px;
+}
+.title {
+    display: flex;
+    width: 986px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.title h6 {
+    color: #999;
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title h2 {
+    color: var(--main, #231F20);
+    font-family: NanumGothic;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 50.4px */
+}
+
+title h5 {
+    color: #999;
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topik {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 43px;
+    border-bottom: 2px #9d2a2a;
+    border-top: 2px #bd3535;
+}
+hr {
+    border: none; /* Удаляет стандартный бордюр */
+    height: 2px; /* Толщина линии */
+    background-color: #999; /* Цвет линии */
+    width: 990px; /* Длина линии */
+    margin-bottom: 24px;
+}
+.topik img {
+    width: 990px;
+    height: 500px;
+}
+
+.topik p {
+    color: var(--main, #231F20);
+
+    /* R16 */
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+.swiper button {
+    bottom: 0;
+    left: 0;
+    width: 64px;
+    height: 40px;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--main, #231F20);
+    color: var(--FFFFFF, #FFF);
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.swiper button:hover {
+    background-color:  rgba(13, 13, 13, 0.50)
+}

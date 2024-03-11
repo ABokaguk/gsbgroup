@@ -1,0 +1,123 @@
+.main_img {
+    width: 1440px;
+    height: 700px;
+}
+
+.main_img img {
+    top: 100px;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.main_text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    z-index: 2;
+    margin-top: 320px;
+    margin-left: 192px;
+    width: 410px;
+}
+
+.main_text h6 {
+    color: var(--FCFCFC, #FCFCFC);
+
+    /* B16pt */
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.main_text h4 {
+    color: var(--FFFFFF, #FFF);
+
+    /* B 40 */
+    font-family: NanumGothic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 56px */
+}
+
+.main_text button {
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--main, #231F20);
+    color: var(--FFFFFF, #FFF);
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main_img button:hover{
+ background-color:  rgba(13, 13, 13, 0.50)
+}
+
+.news_title {
+    color: #222;
+    /* XB 40 */
+    font-family: NanumGothic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 56px */
+    margin: 100px 150px;
+}
+
+.news_swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1124px;
+    height: 354px;
+    position: relative;
+    bottom: 80px;
+    margin: 170px;
+}
+
+.news-image-slider {
+    width: 1124px;
+    height: 354px;
+    position: relative;
+}
+
+.news-image-slider-image {
+    text-align: center;
+    padding: 24px;
+}
+
+.news-image-slider-image img {
+    max-width: 300px;
+}
+
+.news_swiper .news-button-prev, .news_swiper .news-button-next {
+    color: #231F20;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.news_swiper .news-button-prev {
+    left: -20px;
+}
+
+.news_swiper .news-button-next{
+    right: -20px;
+}
